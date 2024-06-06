@@ -4,8 +4,8 @@ install:
 	sudo apt install ghc
 
 compile:
-	ghc -o main $(path)
+	ghc -o main.bin $(path)
 
 run:
 	@ghc -o main $(path)
-	@./main
+	@./main.bin
